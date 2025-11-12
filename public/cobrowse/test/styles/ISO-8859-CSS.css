@@ -1,0 +1,10 @@
+.cssstyleISO8859 {
+    background-image: url("/cobrowse/test/images/glance2.png");
+    border: 2px solid orange;	
+}
+
+.cssstyleISO8859::before {
+    content: "ISO8859 ÿøÜ";
+    font-size: 18px;
+    font-weight: bold;
+}

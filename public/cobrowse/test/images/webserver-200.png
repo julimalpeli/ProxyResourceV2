@@ -1,0 +1,10 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Secure Static 200</title>
+</head>
+<body>
+    This page is for testing B 13299.  SecureStatic.ashx returns this page if a request is made for a resource and 1) the request has no cookie and 2) the resource name includes "webserver-200"
+</body>
+</html>
