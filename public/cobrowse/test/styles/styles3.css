@@ -1,0 +1,15 @@
+﻿.cssstyle3 {
+    background-color: lightblue;
+    display: inline-block;
+    font-size: large;
+    font-family: 'Museo Sans';
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Museo Sans';
+    /* Note that /webfont.woff is required to trick UCAM authorize service into treating this as a font file.  See re_match_font_resource */
+    src: url('../ResourceWithCORSHeaders.ashx/webfont.woff?resource=museosans_500-webfont-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

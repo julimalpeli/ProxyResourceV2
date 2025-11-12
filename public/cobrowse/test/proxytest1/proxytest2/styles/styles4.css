@@ -1,0 +1,14 @@
+﻿.cssstyle4 {
+    background-color: purple;
+    color: white;
+    display: inline-block;
+    font-size: large;
+    font-weight: normal;
+}
+
+.cssstyle4-relativeurl {
+    background-image: url(../images/glance6.png);
+    width: 200px;
+    height: 50px;
+    border: 2px solid red;
+}

@@ -1,0 +1,30 @@
+﻿.cssstyle2 
+{
+	background-color:Orange;
+	display:inline-block;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: large;
+}
+
+.cssrelativeurl {
+    background-image: url("../images/glance5.png");
+    width: 200px;
+    height: 50px;
+    border: 2px solid blue;
+}
+
+.cssabsoluteurl {
+    background-image: url("/cobrowse/test/images/glance6.png");
+    width: 200px;
+    height: 50px;
+    border: 2px solid blue;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'), url(../fonts/roboto.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}

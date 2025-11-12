@@ -1,0 +1,75 @@
+﻿.cbinfo label {
+    width: 200px;
+    font-weight: bold;
+}
+
+#cbsettings {
+    background-color: lightblue;
+}
+
+#modelinks li {
+    font-size: 12px;
+}
+
+body {
+    text-align: left;
+    font-size: 12px;
+    padding: 12px;
+    background-color: lightblue;
+}
+
+.aboxcontent {
+    border: 2px solid gray;
+    width: auto;
+    padding: 20px;
+    background-color: bisque;
+}
+
+.testsection {
+    border: 2px solid #808080;
+    padding: 10px;
+    margin: 5px;
+    background-color: white;
+}
+
+button {
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+.headerlinks {
+    font-size: 11px;
+}
+
+[aria-expanded=true] > .fa-chevron-right {
+    display: none;
+}
+
+[aria-expanded=false] > .fa-chevron-down {
+    display: none;
+}
+
+#CrossOriginWarning {
+    color: black;
+    background-color: lightgoldenrodyellow;
+    border: 3px solid black;
+    padding: 5px;
+}
+
+<style >
+a:visited {
+    color: #337ab7;
+}
+
+/* links in bootstrap buttons*/
+.btn a:visited, .btn a {
+    color: white;
+    text-decoration: none;
+}
+
+</style > 
