@@ -26,8 +26,8 @@ $currentHost = $_SERVER['HTTP_HOST'] ?? 'localhost';
         
         <link rel="stylesheet" href="/site/wp/content/theme/css/style.css?v=6.53.0.2144784633" type="text/css" media="all" />
         <link rel="stylesheet" href="/include/font-awesome/4.7.0/css/font-awesome.css"/>
-    <script id='glance-cobrowse' data-ws="www.myglance.net" src='https://staging-cdn.myglance.net/cobrowse/CobrowseJS.ashx?group=8757&site=staging&script=' data-groupid='8757' data-additionalgroupids='' data-site="staging" data-inputevents='{"ctrl-13":"showButton", "alt-13":"showTerms", "shift-13":"startSession"}' data-presence='on' charset='UTF-8' defer></script>
-    <script type="text/javascript">
+<script id='glance-cobrowse' data-ws="www.myglance.net" src='https://staging-cdn.myglance.net/cobrowse/CobrowseJS.ashx?group=21549&site=staging&script=' data-groupid='21549' data-additionalgroupids='' data-site="staging" data-inputevents='{"ctrl-13":"showButton", "alt-13":"showTerms", "shift-13":"startSession"}' data-presence='on' charset='UTF-8' defer></script>
+	<script type="text/javascript">
         function Join() {
             var viewer = "/agentjoin/AgentView.php?SessionKey=" + GLANCE.Cobrowse.Visitor.getKey() +
                 "&name=" + encodeURIComponent("Madame Marie Curie") + 
